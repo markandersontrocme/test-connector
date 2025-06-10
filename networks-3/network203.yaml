@@ -1,0 +1,9 @@
+apiVersion: platform.acme.co/v1alpha1
+kind: Network
+metadata:
+  name: network203
+  namespace: test
+spec:
+  parameters:
+    autoCreateSubnetworks: false
+    routingMode: "GLOBAL"
