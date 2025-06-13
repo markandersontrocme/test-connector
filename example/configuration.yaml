@@ -3,6 +3,6 @@ kind: Configuration
 metadata:
   name: configuration-getting-started
   annotations:
-    argocd.argoproj.io/sync-wave: "-1"
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   package: xpkg.upbound.io/upbound/configuration-getting-started:v0.2.0
